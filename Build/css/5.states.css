@@ -1,0 +1,5 @@
+.visually-hidden { /* preimenovati u is-visually-hidden */
+	left: -9999px;
+	position: absolute;
+	top: -9999px;
+}

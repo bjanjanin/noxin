@@ -1,0 +1,115 @@
+/* Begin .l-404 */
+.l-404 {
+	background: url(../assets/noxin-404.jpg) top center;
+	height: 689px;
+	position: relative;
+}
+ 
+.l-404 .l-404-inner {
+	position: absolute;
+	bottom: 250px;
+}
+
+@media only screen 
+and (min-width: 600px) {
+	.l-404 .l-404-inner {
+		bottom: 100px;
+	}
+}
+/* End .l-404 */
+
+/* Begin .l-main-header */
+.l-main-header {
+	background: #b04;
+	margin-bottom: 50px;
+}
+@media only screen 
+and (min-width: 600px) {
+	.l-main-header {
+		height: 200px;
+	}
+}
+/* End .l-main-header */
+
+/* Begin .l-container */
+.l-container {
+	max-width: 880px;
+	margin: 0 auto;
+}
+/* End .l-container */
+
+/* Begin .l-main-content */
+.l-main-content {
+	padding: 5rem 0;
+}
+@media only screen 
+and (max-width: 1024px) {
+	.l-main-content {
+		padding: 6rem 6% 6rem 6%;
+	}
+}
+
+/* End .l-main-content */
+
+/* Begin grid stuff */
+.l-grid {
+	margin-right: -20px;
+	font-size: 0;
+}
+	.l-column {
+		display: inline-block;
+		font-size: 15px;
+		font-size: 1.5rem;
+		padding-right: 20px;
+		vertical-align: top;
+	
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+/* End grid stuff */
+
+/* Begin Media Queries */
+@media only screen 
+and (min-width: 1024px) {
+	.l-desktop-one-whole {
+		width: 100%;
+	}
+	.l-desktop-one-half {
+		width: 50%;
+	}
+	.l-desktop-one-third {
+		width: 33.3333333333%;
+	}
+	.l-desktop-two-thirds {
+		width: 66.6666666666%
+	}
+	.l-desktop-one-quarter {
+		width: 25%;
+	}
+}
+@media only screen 
+and (max-width: 1024px) {
+	.l-tablet-one-whole {
+		width: 100%;
+	}
+	.l-tablet-one-half {
+		width: 50%;
+	}
+	.l-tablet-one-third {
+		width: 33.3333333333%;
+	}
+	.l-tablet-two-thirds {
+		width: 66.6666666666%
+	}
+}
+@media only screen 
+and (max-width: 568px) {
+	.l-smartphone-one-whole {
+		width: 100%;
+	}
+	.l-smartphone-one-half {
+		width: 50%;
+	}
+}
+/* End Media Queries */
