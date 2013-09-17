@@ -1,12 +1,10 @@
-@media print { 
-	* { 
-		background: #fff; 
-		color: #333;
-	}
-	html {
-		font: 100%/1.5 georgia, serif;
-	}
-	.logo, .nav-link, .menu {
-		display: none;
-	} 
-}
+@media print {
+  * {
+    background: #fff;
+    color: #333; }
+
+  html {
+    font: 100%/1.5 georgia, serif; }
+
+  .logo, .nav-link, .menu {
+    display: none; } }

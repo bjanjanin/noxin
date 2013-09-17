@@ -1,66 +1,62 @@
 html {
-	font: 62.5%/1.5 "Proxima-Nova-1", "Proxima-Nova-2", Verdana, serif;
-}
+  font: 62.5%/1.5 "Proxima-Nova-1", "Proxima-Nova-2", Verdana, serif; }
+
 body {
-	background-color: #f5f4f1;
-	font-size: 16px;
-	font-size: 1.6rem;
-}
+  background-color: #f5f4f1;
+  font-size: 16px;
+  font-size: 1.6rem; }
 
 p, h2, h3, ul {
-	margin-bottom: 2rem;
-}
+  margin-bottom: 2rem; }
+
 h1, h2, h3, h4 {
-	font-weight: 700;
-	line-height: 1;
-}
+  font-weight: 700;
+  line-height: 1; }
+
 h1 {
-	color: #b04;
-	font-size: 38px;
-	font-size: 3.8rem;
-	margin-bottom: 3rem;
-	letter-spacing: -1px;
-}
+  color: #b04;
+  font-size: 38px;
+  font-size: 3.8rem;
+  margin-bottom: 3rem;
+  letter-spacing: -1px; }
+
 .h1-red {
-	color: #b04;
-}
+  color: #b04; }
+
 h2 {
-	color: #b04;
-	font-size: 18px;
-	font-size: 1.8rem;
-}
+  color: #b04;
+  font-size: 18px;
+  font-size: 1.8rem; }
+
 h3 {
-	color: #b04;
-	font-size: 22px;
-	font-size: 2.2rem;
-}
+  color: #b04;
+  font-size: 22px;
+  font-size: 2.2rem; }
+
 i, em {
-	font-style: normal;
-	font-weight: 700;
-}
+  font-style: normal;
+  font-weight: 700; }
 
 a {
-	text-decoration: none;
-
-	-webkit-transition: all .4s ease;
-	-moz-transition: all .4s ease;
-	-khtml-transition: all .4s ease;
-}
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -khtml-transition: all .4s ease; }
 
 /* Begin responsive video */
 .video-container {
-	height: 0;
-	margin-bottom: 2rem;
-	overflow: hidden;
-	position: relative;
-	padding-bottom: 56%;
-}
+  height: 0;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56%; }
+
 iframe {
-	border: 0 none transparent;
-}
+  border: 0 none transparent; }
+
 .video-container iframe, .video-container object, .video-container embed {
-	height: 100%;
-	position: absolute;
-	width: 100%;
-}
+  height: 100%;
+  position: absolute;
+  width: 100%; }
+
 /* End responsive video */

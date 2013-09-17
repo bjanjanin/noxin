@@ -26,20 +26,18 @@
 #b04 - crvena-1
 	http://www.colorhexa.com/bb0044.png
 */
-
-
 /* Begin Reset */
 * {
-	padding: 0;
-	margin: 0;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 html {
-	color: #000;
-	background: #fff;
-}
+  color: #000;
+  background: #fff; }
+
 article,
 aside,
 details,
@@ -51,52 +49,51 @@ hgroup,
 nav,
 section,
 summary {
-	display: block;
-}
+  display: block; }
+
 li {
-	list-style: none;
-}
+  list-style: none; }
+
 img {
-	border: 0;
-}
+  border: 0; }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-size: 100%;
-	font-weight: normal;
-}
-pre {
-	white-space: pre;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-}
-/* End Reset */
+  font-size: 100%;
+  font-weight: normal; }
 
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* End Reset */
 /* Begin CSS3 stuff */
 .base-transition {
-	transition: width 0.4s, height 0.4s, background-color 0.4s, transform 0.4s;
-	-moz-transition: width 0.4s, height 0.4s, background-color 0.4s, -moz-transform 0.4s;
-	-webkit-transition: width 0.4s, height 0.4s, background-color 0.4s, -webkit-transform 0.4s;
-}
+  transition: width 0.4s, height 0.4s, background-color 0.4s, transform 0.4s;
+  -moz-transition: width 0.4s, height 0.4s, background-color 0.4s, -moz-transform 0.4s;
+  -webkit-transition: width 0.4s, height 0.4s, background-color 0.4s, -webkit-transform 0.4s; }
+
 .base-border-radius {
-	border-radius: 3px;
-	-khtml-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-}
+  border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px; }
+
 .inner-border-radius {
-	border-radius: 1px;
-	-khtml-border-radius: 1px;
-	-moz-border-radius: 1px;
-	-webkit-border-radius: 1px;
-}
+  border-radius: 1px;
+  -khtml-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px; }
+
 .circle-border-radius {
-	border-radius: 100%;
-	-khtml-border-radius: 100%;
-	-moz-border-radius: 100%;
-	-webkit-border-radius: 100%;
-}
+  border-radius: 100%;
+  -khtml-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%; }
+
 /* End CSS3 stuff */
