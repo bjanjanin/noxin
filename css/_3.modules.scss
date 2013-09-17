@@ -188,11 +188,9 @@ and (min-width: 600px) {
 		background: transparent url('assets/header4.jpg') no-repeat 50%;
 	}
 	.main-header-bg-5 {
-		background: transparent url('assets/header1.jpg') no-repeat 50%;
+		background: transparent url('assets/header5.jpg') no-repeat 50%;
 	}
 /* End .main-header */
-
-
 
 /* Begin .menu */
 .menu {
@@ -536,7 +534,7 @@ and (max-width: 1024px) {
 }
 .footer-item {
 	position: relative;
-	color: #ca8;
+	color: #766;
 	font-size: 11px; 
 	font-size: 1.1rem;
 	margin: 0 0 10px 0;
@@ -557,11 +555,11 @@ and (min-width: 1025px) {
 	text-transform: uppercase;
 }
 .footer-link {
-	color: #ca8;
+	color: #766;
 	text-decoration: none;
 }
 .current.footer-link {
-	color: #ccc;
+	color: #544;
 	background: transparent;
 	font-size: 11px; 
 	font-size: 1.1rem;

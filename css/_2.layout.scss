@@ -18,6 +18,15 @@ and (min-width: 600px) {
 }
 /* End .l-404 */
 
+/* Begin .l-centered */
+.l-centered {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+/* End .l-centered */
+
 /* Begin .l-main-header */
 .l-main-header {
 	background: #b04;
