@@ -145,6 +145,7 @@ and (min-width: 600px) {
 	position: relative;
 	text-decoration: none;
 	font-weight: 700;
+	clear: both;
 }
 .box-link-alt:after {
 	content: "\203A";
@@ -382,6 +383,7 @@ and (min-width: 481px) {
 		float: left;
 		display: inline;
 		margin-bottom: 4rem;
+		margin-right: 20px;
 	}
 }
 
@@ -396,7 +398,7 @@ and (min-width: 481px) {
 }
 .image-gallery-item {
 	display: inline-block;
-	width: 13%;
+	width: 13.5%;
 	margin: 1.5%;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -416,7 +418,7 @@ and (min-width: 481px) {
 
 /* Begin .home-teaser */
 .home-teaser {
-	background: url("noxin-intro.jpg") 65% 0 no-repeat;
+	background: url("noxin-intro.jpg") top center no-repeat;
 	height: 708px;
 	position: relative;
 }
@@ -433,7 +435,7 @@ and (max-width: 600px) {
 	display: block;
 	margin: 0 auto;
 	max-width: 220px;
-	padding-top: 85px;
+	padding-top: 75px;
 }
 /* End .logo*/
 
@@ -522,7 +524,7 @@ and (min-width: 1024px) {
 .main-footer .l-grid {
 	margin: 0;
 }
-.main-footer .l-colummn {
+.main-footer .l-column {
 	padding-right: 0;
 }
 

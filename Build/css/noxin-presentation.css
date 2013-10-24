@@ -161,6 +161,25 @@ iframe {
 
 /* End responsive video */
 /* Begin .l-404 */
+.l-home {
+  background: url(../assets/noxin-intro.jpg) top center;
+  height: 708px;
+  position: relative; }
+
+@media only screen and (max-width: 600px) {
+  .l-home {
+    background: url(../assets/noxin-intro.jpg) 65% 0 no-repeat; } }
+.l-home-inner {
+  background: #d04;
+  height: 202px;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  left: 0;
+  opacity: 0.9;
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9; }
+
 .l-404 {
   background: url(../assets/noxin-404.jpg) top center;
   height: 689px;
@@ -201,9 +220,9 @@ iframe {
 .l-main-content {
   padding: 5rem 0; }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .l-main-content {
-    padding: 6rem 6% 6rem 6%; } }
+    padding: 6rem 6%; } }
 /* End .l-main-content */
 /* Begin grid stuff */
 .l-grid {
@@ -396,7 +415,8 @@ iframe {
   padding: 1.3rem 20px;
   position: relative;
   text-decoration: none;
-  font-weight: 700; }
+  font-weight: 700;
+  clear: both; }
 
 .box-link-alt:after {
   content: "\203A";
@@ -601,7 +621,8 @@ iframe {
     width: 40%;
     float: left;
     display: inline;
-    margin-bottom: 4rem; } }
+    margin-bottom: 4rem;
+    margin-right: 20px; } }
 /* End .album */
 /* Begin .gallery */
 .image-gallery {
@@ -612,7 +633,7 @@ iframe {
 
 .image-gallery-item {
   display: inline-block;
-  width: 13%;
+  width: 13.5%;
   margin: 1.5%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -629,7 +650,7 @@ iframe {
 /* End .gallery */
 /* Begin .home-teaser */
 .home-teaser {
-  background: url(../assets/noxin-intro.jpg) 65% 0 no-repeat;
+  background: url(../assets/noxin-intro.jpg) top center no-repeat;
   height: 708px;
   position: relative; }
 
@@ -642,7 +663,7 @@ iframe {
   display: block;
   margin: 0 auto;
   max-width: 220px;
-  padding-top: 85px; }
+  padding-top: 75px; }
 
 /* End .logo*/
 /* Begin .article */
@@ -721,7 +742,7 @@ iframe {
 .main-footer .l-grid {
   margin: 0; }
 
-.main-footer .l-colummn {
+.main-footer .l-column {
   padding-right: 0; }
 
 @media only screen and (max-width: 1024px) {

@@ -1,4 +1,26 @@
 /* Begin .l-404 */
+.l-home {
+	background: url("noxin-intro.jpg") top center;
+	height: 708px;
+	position: relative;
+}
+@media only screen 
+and (max-width: 600px) {
+	.l-home {
+		background: url("noxin-intro.jpg") 65% 0 no-repeat;
+	}
+}
+.l-home-inner {
+	background: #d04;
+	height: 202px;
+	position: absolute;
+	top: 250px; 
+	width: 100%; 
+	left: 0; 
+	opacity: 0.9;
+	-webkit-opacity: 0.9;
+	-moz-opacity: 0.9;
+}
 .l-404 {
 	background: url("noxin-404.jpg") top center;
 	height: 689px;
@@ -52,9 +74,9 @@ and (min-width: 600px) {
 	padding: 5rem 0;
 }
 @media only screen 
-and (max-width: 1024px) {
+and (max-width: 1023px) {
 	.l-main-content {
-		padding: 6rem 6% 6rem 6%;
+		padding: 6rem 6%;
 	}
 }
 
@@ -71,7 +93,7 @@ and (max-width: 1024px) {
 		font-size: 1.5rem;
 		padding-right: 20px;
 		vertical-align: top;
-	
+
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
